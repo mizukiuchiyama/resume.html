@@ -1,0 +1,122 @@
+/* General Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #b3e5fc; /* Light blue background */
+  color: #333;
+  padding: 10px;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 5px;
+  font-size: 36px;
+}
+
+header p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+header a {
+  color: #4fc3f7;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Profile Image */
+.profile-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* Section Styles */
+.section {
+  margin: 20px 0;
+}
+
+.section h2 {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.content-block {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.content-block h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.content-block p {
+  margin-bottom: 8px;
+  line-height: 1.8;
+}
+
+/* Skills Section */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  header h1 {
+    font-size: 28px;
+  }
+
+  header p {
+    font-size: 16px;
+  }
+
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+img {
+  display: none;
+}
